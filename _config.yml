@@ -1,6 +1,6 @@
 title: "Ernest Elnino"
 author: "Protocol Whisperer"
-description: "Made by Er<b style=\"color: #f45;\">n</b>est <b style=\"color: #f45;\">Odhi</b>ambo"
+description: "TLDR by Er<b style=\"color: #f45;\">n</b>est <b style=\"color: #f45;\">Odhi</b>ambo Elnino"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -22,7 +22,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:ernest.odhiambo1@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/ProtocolWhisperer01"}
-  - {title: Subscribe, icon: rss, url: "https://twitter.com/ElninoErnest"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/ElninoErnest"}
+  - {title: Medium, icon: medium, url: "https://medium.com/@protocolwhodis01"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
