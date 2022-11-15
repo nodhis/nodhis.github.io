@@ -23,7 +23,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:ernest.odhiambo1@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/ProtocolWhisperer01"}
   - {title: Twitter icon: twitter, url: "https://twitter.com/ElninoErnest"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Subscribe, icon: rss, url: "https://twitter.com/ElninoErnest"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
