@@ -26,7 +26,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Github, icon: github, url: "https://github.com/ProtocolWhisperer01"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/ElninoErnest"}
   - {title: Medium, icon: medium, url: "https://medium.com/@protocolwhodis01"}
-  - {title: Linkedin, icon: linkedin, url: "www.linkedin.com/in/ernest-odhiambo-elnino-6475a2161"}
+  - {title: Linkedin, icon: linkedin, url: "https://linkedin.com/in/ernest-odhiambo-elnino-6475a2161"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
