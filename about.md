@@ -8,8 +8,8 @@ I am a highly motivated, conscientious, and competent collaborator with in-depth
 
 THM STATS:
 
-![TryHackMe Stats](https://tryhackme.com/badge/1217921)
+[TryHackMe Stats](https://tryhackme.com/badge/1217921)
 
 HTB STATS:
  
-![HackTheBox Stats](https://app.hackthebox.com/profile/1119544)
+[HackTheBox Stats](https://app.hackthebox.com/profile/1119544)
