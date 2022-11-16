@@ -8,7 +8,8 @@ title: "About Me"
            <img src="https://media.giphy.com/media/MDb3XyNxoa3Yy7BpPr/giphy.gif" alt="centered image" width="125"/>
            </center>
 
-           <img src="https://komarev.com/ghpvc/?username=ProtocolWhisperer01&style=flat-square&color=blue" alt=""/>
+<br>
+<img src="https://komarev.com/ghpvc/?username=ProtocolWhisperer01&style=flat-square&color=blue" alt=""/>
 
 </div>
 
