@@ -28,6 +28,10 @@ external:                  # shows a footer with social links - for available ic
   - {title: Medium, icon: medium, url: "https://medium.com/@protocolwhodis01"}
   - {title: Linkedin, icon: linkedin, url: "https://linkedin.com/in/ernest-odhiambo-elnino-6475a2161"}
 
+extra_css:
+  - {file: "extra.css"}
+
+
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
