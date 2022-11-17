@@ -6,6 +6,7 @@ title: "About Me"
 <div id="header" align="center">
            <center>
            <img src="https://media.giphy.com/media/MDb3XyNxoa3Yy7BpPr/giphy.gif" alt="centered image" width="125"/>
+           <img src="https://komarev.com/ghpvc/?username=ProtocolWhisperer01&style=flat-square&color=blue" alt=""/>
            </center>
 <br>
 <img src="https://komarev.com/ghpvc/?username=ProtocolWhisperer01&style=flat-square&color=blue" alt=""/>
