@@ -19,7 +19,7 @@ So about me, I would definitely say that I am a highly motivated, conscientious,
 
 ---
 
-### 👼 🛰️ 🥲 THM STATS:
+### 👼 🛰️ 🥲 TRYHACKME STATS:
 
 [![TryHackMe Stats](https://tryhackme.com/badge/1217921)]
 
@@ -33,5 +33,5 @@ So about me, I would definitely say that I am a highly motivated, conscientious,
 
 ---
 
-### 🏗️ 😄 🔥 HTB STATS:
+### 🏗️ 😄 🔥 HACKTHEBOX STATS:
 
