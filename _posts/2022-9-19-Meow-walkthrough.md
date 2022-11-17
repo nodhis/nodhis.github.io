@@ -7,6 +7,8 @@ layout: post
 The first challenge you might face is as a beginner is basically connecting to the HTB. 
 I would assume that you have already download .opvn file which will be in your /Downloads/.
 Open your terminal and cd aka change directory to your downloads directory `cd ~/Downloads` 
+
+
 Please note:
 ```
 ~ This is normally refered to as the tilde and represents your /home/[user] directory together.
