@@ -1,4 +1,4 @@
-title: "<img src=\"avatar.png\" alt=\"Protocol_Whisperer\" style=\"border-radius: 50%;\" width=\"100\">"
+title: "Protocol"
 author: "Protocol Whisperer"
 description: "TLDR by Er<b style=\"color: #f45;\">n</b>est <b style=\"color: #f45;\">Odhi</b>ambo Elnino"
 permalink: /:title/
@@ -16,9 +16,9 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "README.md", title: "Home"}
+  - {file: "home.md", title: "Home"}
   - {file: "blog.md", title: "Blog"}
-  - {file: "", title: "Lab"}
+  - {file: "lab.md", title: "Lab"}
   - {file: "about.md", title: "About"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
