@@ -3,12 +3,9 @@
  layout: page
 ---
 
-<div id="header" align="center">
-           <center>
-           <img src="avatar.png" alt="centered image" width="400" style="border-radius: 50%;"/>
-           </center>
-</div>
+---
 
+<div id="header" align="center">[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=This+page+is+under+construction+!;Nevertheless%2C+It+is+coming+soon+%3A))](https://git.io/typing-svg)</div>
 
-This page is under construction.
-![Lichtenstein](https://wsrv.nl/?url=wsrv.nl/lichtenstein.jpg&w=300&h=300)
+---
+
