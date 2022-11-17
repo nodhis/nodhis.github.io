@@ -19,13 +19,13 @@ So about me, I would definitely say that I am a highly motivated, conscientious,
 
 ---
 
-### 👼 🛰️ 🥲 TRYHACKME STATS:
+### 👼 🛰️ 🥲 TRYHACKME STATS: [**MY PROFILE**](https://tryhackme.com/p/protocolwhisper)
 
  <img src="https://tryhackme-badges.s3.amazonaws.com/protocolwhisper.png" alt="TryHackMe" width="400"/>
 
 ---
 
-### 🌩️ 🌳 🔥 GITHUB STATS:
+### 🌩️ 🌳 🔥 GITHUB STATS: [**MY PROFILE**](https://github.com/ProtocolWhisperer01)
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=ProtocolWhisperer01&theme=dark&background=000000)](https://git.io/streak-stats)
 
