@@ -101,8 +101,8 @@ Just look at the [file]() section on your terminal it should be on the top-left.
 >  What is the name of the most common tool for finding open ports on a target? 
 >> nmap
 
->>  What service do we identify on port 23/tcp during our scans? 
->>>> telnet
+>  What service do we identify on port 23/tcp during our scans? 
+>> telnet
 
 Telnet is a protocol that offers remote access to machines using a virtual terminal connection however the protocol is insecure since password and text sent back and forth are not secured and are in clear text format. 
 Hence this led to the development of SSH which way secure. 
