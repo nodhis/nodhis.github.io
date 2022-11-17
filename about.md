@@ -21,7 +21,7 @@ So about me, I would definitely say that I am a highly motivated, conscientious,
 
 ### 👼 🛰️ 🥲 TRYHACKME STATS:
 
-[![TryHackMe Stats](https://tryhackme.com/badge/1217921)](<script src="https://tryhackme.com/badge/1217921"></script>)
+ <img src="https://tryhackme-badges.s3.amazonaws.com/protocolwhisper.png" alt="TryHackMe">
 
 ---
 
