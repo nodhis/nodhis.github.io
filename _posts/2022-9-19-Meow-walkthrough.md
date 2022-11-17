@@ -2,7 +2,7 @@
 title: "Meow Walkthrough HTB"
 layout: post
 ---
-### Connecting to Hack the Box.
+## Connecting to Hack the Box.
 
 The first challenge you might face is as a beginner is basically connecting to the HTB. 
 I would assume that you have already download .opvn file which will be in your /Downloads/.
