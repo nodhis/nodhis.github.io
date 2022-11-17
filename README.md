@@ -8,7 +8,7 @@ layout: page
 
 ---
 
-# Blog posts
+#### ♨️ Latest News around the world:
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
