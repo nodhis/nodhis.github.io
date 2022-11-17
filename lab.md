@@ -11,6 +11,6 @@
 
 <div id="header" align="center">
            <center>
-           <img src="https://media.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.gif" alt="centered image" width="125"/>
+           <img src="https://media.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.gif" alt="centered image" width="300"/>
            </center>
 </div>
