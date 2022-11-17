@@ -1,6 +1,6 @@
 ---
  title: "Lab"
- layout: Page
+ layout: page
 ---
 
 <div id="header" align="center">
@@ -11,3 +11,4 @@
 
 
 This page is under construction.
+![Lichtenstein](https://wsrv.nl/?url=wsrv.nl/lichtenstein.jpg&w=300&h=300)
