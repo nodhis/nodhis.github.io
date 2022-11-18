@@ -1,6 +1,6 @@
 ---
 layout: post
-category:
+categories:
     - Hack The Box
     - Tier 0
 ---
