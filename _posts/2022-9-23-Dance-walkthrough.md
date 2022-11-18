@@ -1,4 +1,5 @@
 ---
+title: "Dance Walkthrough HTB"
 layout: post
 categories:
     - Hack The Box
@@ -112,7 +113,7 @@ The first thing we can start with is and assume that the password as blank:
         WorkShares      Disk      
 ```
 We see that there are 4 shares.
-The next step is too access a share in our case we are going to access the workshares since it doesn't require any password we can pass in a blank password.
+The next step is to access a share in our case we are going to access the workshares since it doesn't require any password we can pass in a blank password.
 
 ```
 -$ smbclient //$IP/WorkShares
