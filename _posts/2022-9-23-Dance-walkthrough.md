@@ -17,7 +17,7 @@ Server Message Block (SMB) is a communication protocol originally developed in 1
 
 A tip I would suggest, if you don't want to constantly retype the IP address you can opt to export the address to a variable whose name can be of your chosing. 
 In turn you can call the variable as `$[variableName]` the **$** is important.
-Conside the command below:
+Consider the command below:
 ```
 -$ export IP=10.129.192.19 
 ```
@@ -100,7 +100,7 @@ Host script results:
 
 With what we have discovered we can try and gain foothold on the machine.
 
-The first thing we can start with is and assume that the password as blank:
+The first thing we can start with is listing the shares by assuming that the password as blank/empty:
 
 ```
 -$ smbclient -L $IP
