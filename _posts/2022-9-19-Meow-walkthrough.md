@@ -1,6 +1,9 @@
 ---
 title: "Meow Walkthrough HTB"
 layout: post
+categories:
+	- Hack The Box
+	- Tier 0
 ---
 ## Connecting to Hack the Box.
 The first challenge you might face is as a beginner is basically connecting to the HTB. 
@@ -70,7 +73,7 @@ This means that the machine is active and responsive.
 
 A tip I would suggest, if you don't want to constantly retype the IP address you can opt to export the address to a variable whose name can be of your chosing. 
 In turn you can call the variable as `$[variableName]` the **$** is important.
-Conside the command below:
+Consider the command below:
 ```
 -$ export IP=10.129.141.194 
 ```
