@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Fawn Walkthrough HTB"
+categories:
+     - Hack The Box
+     - Tier 0
 ---
 
 The File Transfer Protocol (FTP) is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network.FTP users may authenticate themselves with a clear-text sign-in protocol, normally in the form of a username and password, but can connect anonymously if the server is configured to allow it. For secure transmission that protects the username and password, and encrypts the content, FTP is often secured with SSL/TLS (FTPS) or replaced with SSH File Transfer Protocol (SFTP).
@@ -16,7 +19,7 @@ The original specification for the File Transfer Protocol was written by Abhay B
 
 A tip I would suggest, if you don't want to constantly retype the IP address you can opt to export the address to a variable whose name can be of your chosing. 
 In turn you can call the variable as `$[variableName]` the **$** is important.
-Conside the command below:
+Consider the command below:
 ```
 -$ export IP=10.129.181.55 
 ```
