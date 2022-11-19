@@ -2,8 +2,8 @@
 title: "Meow Walkthrough HTB"
 layout: post
 categories:
-	- Hack The Box
-	- Tier 0
+     - Hack The Box
+     - Tier 0
 ---
 ## Connecting to Hack the Box.
 The first challenge you might face is as a beginner is basically connecting to the HTB. 
