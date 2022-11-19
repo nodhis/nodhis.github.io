@@ -17,7 +17,7 @@ Redis is an open source (BSD licensed), in-memory data structure store used as a
 
 A tip I would suggest, if you don't want to constantly retype the IP address you can opt to export the address to a variable whose name can be of your chosing. 
 In turn you can call the variable as `$[variableName]` the **$** is important.
-Conside the command below:
+Consider the command below:
 ```
 -$ export IP=10.129.61.157 
 ```
