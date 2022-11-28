@@ -61,9 +61,9 @@ As you can see it is prudent to use both to fully verify the hash ids.
 
 After determining the hash type you can opt to use online tools like to crack the hashes:
 
-	1. [crackstation](https://www.crackstation.net)
-	2. [hashkiller](https://www.hashkiller.co.uk)
-	3. [hashes](https://hashes.com)
+1. [crackstation](https://www.crackstation.net)
+2. [hashkiller](https://www.hashkiller.co.uk)
+3. [hashes](https://hashes.com)
 
 However, if you are more adventurous you can opt to use terminal tools like `hashcat` and `johntheripper`.
 In my case I getting more faamiliar with hashcat, nevertheless, in future I'll practise with johntheripper.
