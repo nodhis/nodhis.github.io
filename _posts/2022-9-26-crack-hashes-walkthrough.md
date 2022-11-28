@@ -1,4 +1,10 @@
-# THM --- Cracking the Hashes.
+---
+layout: post
+title: "Crack Hashes Walkthrough THM"
+categories:
+     - Try Hack Me
+     - Easy
+---
 
 ##### What is hashing?
 
