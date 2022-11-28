@@ -269,7 +269,7 @@ $6\$aReallyHardSalt\$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS
 Please note for the above it will take you some time to crack it 😐️.
 
 > e5d8870e5bdd26602cab8dbe07a942c8669e56d6
->>  tryhackme
+>>  Salt:tryhackme
 
 When I tried with hash-identifier I was unable to pick out any definitive hash more so since the challenge had a hint as you can see below.
 
