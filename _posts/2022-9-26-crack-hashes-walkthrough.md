@@ -6,9 +6,10 @@ categories:
      - Easy
 ---
 
-##### What is hashing?
+### What is hashing?
 
 This is the process of transforming any given key or a string of characters into another value. Many encryption algorithms use hashing to enhance cybersecurity. Hashed strings and inputs are meaningless to hackers without a decryption key.
+
 
 **[Fun fact]** Linux uses the yescrypt as the default hash function.
 
