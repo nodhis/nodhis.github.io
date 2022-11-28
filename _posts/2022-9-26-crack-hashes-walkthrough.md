@@ -71,7 +71,7 @@ In my case I getting more faamiliar with hashcat, nevertheless, in future I'll p
 `TIP` One thing I picked up with hashcat is once a hash is cracked the info get stored in a potfile and if you try to use hashcat to crack hash once more it won't get executed.
 
 ```
-$ hashcat -a 0 -m 0 482c811da5d5b4bc6d497ffa98491e38 Desktop/rockyou.txt -r Desktop/best64.rule
+-$ hashcat -a 0 -m 0 482c811da5d5b4bc6d497ffa98491e38 Desktop/rockyou.txt -r Desktop/best64.rule
 
 ---snip---
 
@@ -124,6 +124,7 @@ Possible Hashs:
 `-m` describes the hash type/mode and 0 represents MD5
 
 > CBFDAC6008F9CAB4083784CBD1874F76618D2A97
+
 ```
 ─$ hash-identifier CBFDAC6008F9CAB4083784CBD1874F76618D2A97
 
@@ -135,7 +136,9 @@ Possible Hashs:
 
 cbfdac6008f9cab4083784cbd1874f76618d2a97:password123
 ```
+
 > 1C8BFE8F801D79745C4631D09FFF36C82AA37FC4CCE4FC946683D7B336B63032
+
 ```
 ─$ hash-identifier 1C8BFE8F801D79745C4631D09FFF36C82AA37FC4CCE4FC946683D7B336B63032
 
@@ -166,6 +169,7 @@ Here I had trouble identifying the type of hash in use.
 
 [+] Unknown hash
 ```
+
 As you can see it got a bit frustrating. Fortunately, after some googling I found that I have to use `\` infront of the `$` in order for it to be ignored and not to be read directly.Also you need to use `""` on the hash.
 This also applies when using [hashcat]().
 So it turns out that if a hash has dollar signs `$` in it, this is usually a delimiter between the salt and the hash. 
@@ -175,6 +179,7 @@ But even before coming to that conclusion I used [hashes.com](https://hashes.com
 > $2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom - Possible algorithms: bcrypt $2*$, Blowfish (Unix), bcrypt(md5($plaintext))
 
 Going back to the terminal.
+
 ```
 ─$ hashid -m "\$2y\$12\$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom"                                              
 Analyzing '$2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom'
@@ -188,6 +193,7 @@ Analyzing '$2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom'
 $2y$12$Dwt1BZj6pcyc3Dy1FWZ5ieeUznr71EeNkJkUlypTsgbX1H68wsRom:bleh:3200
 ```
 > 279412f945939ba78ce0758d3fd83daa
+
 ```
 ─$ hash-identifier 279412f945939ba78ce0758d3fd83daa
 
@@ -219,6 +225,7 @@ Possible Hashs:
 f09edcb1fcefc6dfb23dc3505a882655ff77375ed8aa2d1c13f640fccc2d0c85:paule
 
 ```
+
 > 1DFECA0C002AE40B8619ECF94819CC1B
 
 ```
@@ -232,6 +239,7 @@ Possible Hashs:
 
 1dfeca0c002ae40b8619ecf94819cc1b:n63umy8lkf4i
 ```
+
 > $6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.
 >> Salt: aReallyHardSalt
 
@@ -243,13 +251,16 @@ Salt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdj
 ```
 
 When using the terminal tools here is what I found.
+
 ```
 ─$ hashid -m  "\$6\$aReallyHardSalt\$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02."
 
 Analyzing '$6$aReallyHardSalt$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02.'
 [+] SHA-512 Crypt [Hashcat Mode: 1800]
 ```
+
 The challenge now came in cracking this particular hash.
+
 ```
 ─$ hashcat -m 1800 "\$6\$aReallyHardSalt\$6WKUTqzq.UQQmrm0p/T7MPpMbGNnzXPMAXi4bJMl9be.cfi3/qxIf.hsGpS41BqMhSrHVXgMpdjS6xeKZAs02." rockyou.txt -r best64.rule
 
@@ -259,6 +270,7 @@ Please note for the above it will take you some time to crack it 😐️.
 
 > e5d8870e5bdd26602cab8dbe07a942c8669e56d6
 >>  tryhackme
+
 When I tried with hash-identifier I was unable to pick out any definitive hash more so since the challenge had a hint as you can see below.
 
 ```
@@ -268,6 +280,7 @@ Possible Hashs:
 [+] SHA-1
 [+] MySQL5 - SHA-1(SHA-1($pass))
 ```
+
 Therefore, I used `hashid` and found.
 
 ```
@@ -285,6 +298,7 @@ Analyzing 'e5d8870e5bdd26602cab8dbe07a942c8669e56d6'
 ```
 
 After determining the hash type then we crack it using hashcat.
+
 ```
 ─$ hashcat -m 160 e5d8870e5bdd26602cab8dbe07a942c8669e56d6:tryhackme rockyou.txt -r best64.rule
 
