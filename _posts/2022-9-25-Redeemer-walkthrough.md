@@ -58,7 +58,7 @@ To test the command:
 
 I wrote `select` because it is usually the go to command to access databases and tables more so when using SQL.
 Up to this point I basically used help command to figure things out and move around, but I haven't been able to view the databases that are available let alone the tables.
-The onlything to do now is research on redis and the system 😅️.
+The only thing to do now is research on redis and how it works 😅️.
 
 After an enourmous time of googling here is what I found.
 
@@ -74,7 +74,7 @@ Also, Redis is a NO-SQL type of database system. So that would mean that it is a
 
 A tip that I found was to use this [site](https://book.hacktricks.xyz/welcome/readme) it is called hacktricks, a wonderful resource for knowledge in terms of ctfs.
 
-In-depth reference would be [cryptocat](https://www.youtube.com/watch?v=usZ78an3jXE&t=6s) video.
+In-depth reference would be from [cryptocat's](https://www.youtube.com/watch?v=usZ78an3jXE&t=6s) video.
 
  
 >  How many keys are present inside the database with index 0? 
